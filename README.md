@@ -95,3 +95,9 @@ curl -X GET "http://localhost:8000/v1/staticCodeScan?bitbucketRepo=https://repo.
 -H "accept: application/json"
 ```
 
+## To run rerun.sh
+
+```bash
+chmod +x rerun.sh
+rerun.sh build_and_cleaup
+```
