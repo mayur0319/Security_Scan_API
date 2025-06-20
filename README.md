@@ -24,17 +24,19 @@ A FastAPI-based microservice for performing security scans on source code and co
 
 ## 📁 Directory Structure
 
+```text
 .
-├── app.py # FastAPI main entrypoint
+├── app.py               # FastAPI main entrypoint
 ├── utils/
-│ ├── config.py # Configuration variables loaded from environment
-│ ├── git_helper.py # Git cloning logic
-│ ├── log_manager.py # Singleton logger utility
-│ ├── nexus_helper.py # Nexus IQ CLI integration
-│ ├── sonar_helper.py # SonarQube CLI + API integration
-│ ├── wiz_helper.py # Wiz scanning logic
-├── requirements.txt
-└── README.md # This file
+│   ├── config.py        # Configuration variables loaded from environment
+│   ├── git_helper.py    # Git cloning logic
+│   ├── log_manager.py   # Singleton logger utility
+│   ├── nexus_helper.py  # Nexus IQ CLI integration
+│   ├── sonar_helper.py  # SonarQube CLI + API integration
+│   ├── wiz_helper.py    # Wiz scanning logic
+├── requirements.txt     # Python dependencies
+└── README.md            # This file
+```
 
 
 ---
