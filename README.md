@@ -1,4 +1,4 @@
-# SSDLC Scanning API
+# SSDLens: Secure Scanning Service
 
 A FastAPI-based microservice for performing security scans on source code and container images as part of SSDLC (Secure Software Development Life Cycle). The service integrates with various tools like:
 
