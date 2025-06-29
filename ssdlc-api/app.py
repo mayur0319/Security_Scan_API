@@ -51,11 +51,11 @@ async def health_check_v1():
 
 @app.get("/v1")
 async def read_root_v1():
-    return "Welcome to ssdlc-api, Please hit /docs for list of supported endpoints"
+    return "Welcome to ssdlc-api, Please hit /docs for a list of supported endpoints"
 
 @app.get("/v1/DockerFileScan")
 async def docker_file_scan_v1(
-    bitbucketRepo: AnyUrl = "https://ritscm.regeneron.com/scm/ics/ssdlc-signaturestore-api.git",
+    bitbucketRepo: AnyUrl = "",
     branch: str = "develop",
     dockerfilePath: str = ".",
     Metadata: Optional[str] = Query(None)
